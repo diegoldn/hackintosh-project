@@ -47,22 +47,17 @@ List of the hardware I'm using:
 
 #### 3. GATHERING RESOURCES
 
-    Things you'll need to download before starting:
-        - OpenCore-0.5.5
-        - GenSMBIOS
-        - MasciASL-1.5.7
-        - MountEFI
-        - ProperTree
-        - SSDTTime
-        - The Vanilla AMD config courtesy of AlGrei (check the link section)
+Things you'll need to download before starting:
 
+OpenCore-0.5.5
+GenSMBIOS
+MasciASL-1.5.7
+MountEFI
+ProperTree
+SSDTTime
+The Vanilla AMD config courtesy of AlGrei [The Vanilla AMD config courtesy of AlGrei](https://github.com/AMD-OSX/AMD_Vanilla)
 
-        - A USB Drive (16GB)
-        - Some patience... lots of it... more of it...
-
-        Keep calm, with this quick guide you'll do it almost without a struggle :heart
-
-#### 3. INSTALLATION
+#### 4. INSTALLATION
 
     macOS
 
@@ -251,5 +246,3 @@ List of the hardware I'm using:
 
 
 #### 15. LINK SECTION
-
-[The Vanilla AMD config courtesy of AlGrei](https://github.com/AMD-OSX/AMD_Vanilla)
