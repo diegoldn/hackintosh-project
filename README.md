@@ -2,10 +2,9 @@
 
 #### 0. INTRO
 
-    - This guide is a log of the steps I've taken to put my system running OSX Catalina 10.15.3.
+This guide is a log of the steps I've taken to put my system running OSX Catalina 10.15.3.
 
-    - DISCLAIMER: Follow this guide at your own responsibilty. I'm not responsible for any damage
-    you commit to your hardware
+DISCLAIMER: *Follow this guide at your own responsibilty. I'm not responsible for any damage  you commit to your hardware*
 
 
 #### 1. HARDWARE
