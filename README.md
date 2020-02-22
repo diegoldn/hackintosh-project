@@ -1,10 +1,5 @@
 ## EDO'S HACKINTOSH PROJECT
 
-#### 0. NOTAS:
-
-    - fazer SSDTS
-    - kernel patches ryzen/threadripper 17h
-
 #### 0. INTRO
 
     - This guide is a log of the steps I've taken to put my system running OSX Catalina 10.15.3.
@@ -33,32 +28,47 @@
 
 #### 2. GATHERING RESOURCES
 
-    I've followed the AMD OS X Vanilla Guid [read it here](https://vanilla.amd-osx.com)
+    I've followed the AMD OS X Vanilla Guide [here](https://vanilla.amd-osx.com)
+
+    NOTE: You'll need an iCloud account to be able to configure your mac.
+    Usually people already have something from Apple so this won't be a problem for almost everyone.
 
     Things you'll need to download before starting:
-        - gibMacOS, an awesome tool from CorpNewt [LINK](https://github.com/corpnewt/gibMacOS)
+        - OpenCore-0.5.5
+        - GenSMBIOS
+        - MasciASL-1.5.7
+        - MountEFI
+        - ProperTree
+        - SSDTTime
         - The Vanilla AMD config courtesy of AlGrey [LINK](https://github.com/AMD-OSX/AMD_Vanilla)
         - A USB Drive (16GB)
-        - Some patience... lots of it... more of it....
+        - Some patience... lots of it... more of it...
 
-        Keep calm, with this quick guide you'll do it almost without struggle :heart
+        Keep calm, with this quick guide you'll do it almost without a struggle :heart
 
 #### 3. INSTALLATION
 
-    Requires Windows 10
+    macOS
 
-    1. Extract gibMacOS and cd into its folder
+    Create an USB with Catalina 10.15.3 install
 
-    2. Run gibMacOS.bat as Admin
+    1. Download Catalina from App Store
 
-    It will download and install some requirements.
-    You'll need Python to do this, if you don't have it and the script does not propmpt you to install it, please install Python 3.
+    2. Format your USB with
+       - Name: Hackintosh
+       - Format: APFS
+       - Scheme: GUID Partition Map
 
-    3. Next, choose the macOS version to download: I've chosen macOS Catailna 10.15.3
+    3. Run  the createinstallmedia command
 
-    4. Choose R to Toggle Recovery-Only to ON
+    ```
+        sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/Hackintosh
+    ```
 
-    5. It will download and prepare some files
+    This will take some time but in the end you'll have a normal Catalina USB installer.
+
+    Nothing new till now.
+
 
 
 #### 4. CREATING MACOS INSTALL USB AND BOOTLOADER SETUP
