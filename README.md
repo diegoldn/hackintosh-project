@@ -6,7 +6,7 @@ This guide is a log of the steps I've taken to put my system running OSX Catalin
 
 DISCLAIMER: *Follow this guide at your own responsibilty. I'm not responsible for any damage  you commit to your hardware*
 
-If you try to just copy/paste the thing, you won't have any luck. First there are personal files that need to be created from your target hardware. Other is because each system has its own differences. So if you're trying to do this the fast way, my advise is to buy a new Mac from Apple.
+If you try to just copy/paste the thing, you won't have any luck. First there are personal files that need to be created from your target hardware. Other is because each system has its own differences. So if you're trying to do this the fast way, my advice to you is just buy a new Mac from Apple.
 
 
 #### 1. HARDWARE
@@ -25,6 +25,16 @@ If you try to just copy/paste the thing, you won't have any luck. First there ar
     - Razer Kiyo FHD Webcam
     - Mouse Logitech G-903
     - Keyboard Ducky MECHA MINI 60%
+
+#### 2. THINGS YOU'LL NEED
+
+    - PEN DRIVE 16GB
+    - XCode installed
+    - A macOS Catalina 10.15.3 install (Install macOS Catalina.app)
+        ####### NOTE: download it directly from the App Store using your own account
+
+
+
 
 
 #### 2. GATHERING RESOURCES
