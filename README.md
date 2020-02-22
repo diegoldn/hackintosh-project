@@ -54,9 +54,7 @@ List of the hardware I'm using:
         - MountEFI
         - ProperTree
         - SSDTTime
-        - The Vanilla AMD config courtesy of AlGrei
-
-        [LINK](https://github.com/AMD-OSX/AMD_Vanilla)
+        - The Vanilla AMD config courtesy of AlGrei (check the link section)
 
 
         - A USB Drive (16GB)
@@ -151,3 +149,8 @@ List of the hardware I'm using:
     POWER
 
     18. Platform Power Management: Disabled
+
+
+#### 15. LINK SECTION
+
+[LINK](https://github.com/AMD-OSX/AMD_Vanilla)
