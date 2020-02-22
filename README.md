@@ -105,6 +105,8 @@ So the challenge starts now.
 
 You need to mount your USB EFI partition using the MountEFI tool and copy there the OpenCore EFI Folder (EFI folder included)
 
+No worries, let me guide you on this...
+
     - You'll find MountEFI in this repo's TOOLS folder
     - You'll find OpenCore-0.5.5-RELEASE.ZIP in this repo's OPENCORE-0.5.5 folder
 
