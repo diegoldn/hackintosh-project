@@ -152,10 +152,32 @@ Just copy my EFI prepared folder into your empty EFI partition (EFI parent folde
 
 If your hardware is exactly mine you can use the files inside EFI/OC/ACPI. Otherwise you need to do your own files.
 
-To do that follow the Getting started with ACPI guide provided by [khronokernel](khronokernel.github.io/Getting-Started-With-ACPI/)
+To do that follow the Getting started with ACPI guide provided by [Opencore Vanilla Guide](khronokernel.github.io/Getting-Started-With-ACPI/)
 
 NOTE: Pay attention to this step because you can brick your machine with this...
 
+If you need to create your specific ACIP files you'll find the SSDTime helper inside my Tools Folder.
+
+Just unzip it in the target machine desktop (the one where you intend to install your macOS) and run it in a Windows installation, executing the SSDTime.bat as admin.
+
+You can also run it on linux. More info on that in the last link provided. Just read it carefully and in doubt check other EFI folders or ask in reddit/forums about it.
+
+
+#### 9. config.plist
+
+Once again, if your hardware is exactly like mine, you can use the config.plist file provided in my EFI folder.
+
+If it is not, please check the Opencore Vanilla Guide.
+
+Even if it's equal to mine you'll need to run GenSMBIOS application to creating a MacSerial for your fake new mac.
+
+To do that use the GenSMBIOS.zip in this repo's TOOLS folder and follow the steps in the Platforminfo section of this page [amd-config](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/amd-config.plist/amd-config)
+
+With the fake data you get from GenSMBIOS you should open config.plist and fulfill it with this new info.
+
+NOTE: I've removed my personal GenSMBIOS info from config.plist file.
+
+![config.plist PlatformInfo](/SCREENSHOTS/PlatformInfo.png?raw=true "Platform Info")
 
 
 
