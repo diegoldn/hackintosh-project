@@ -56,7 +56,7 @@ Things you'll need to download before starting:
     - ProperTree
     - SSDTTime
 
-    You can find it inside the RESOURCES folder of this repo.
+You can find it inside the RESOURCES folder of this repo.
 
 
 #### 4. KEXTs (Kernel Extensions)
@@ -73,10 +73,12 @@ Things you'll need to download before starting:
     - BrcmPatchRAM3.kext
     - AirportBrcmFixup.kext
 
-    You can find it in the KEXTS folder of this repo.
+You can find it in the KEXTS folder of this repo.
+
+If you hardware is not exactly like mine please read the guide mentioned above in the section related to [Gathering Files](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/ktext)
 
 
-#### 5. INSTALLATION
+#### 5. CREATE AN INSTALL USB PEN DRIVE
 
 Create an USB with Catalina 10.15.3 install (done with macOS)
 
@@ -99,7 +101,7 @@ This will take some time but in the end you'll have a simple Catalina USB instal
 Nothing new till now.
 
 
-#### 6. LET THE GAMES BEGIN (YOUR SAMPLE EFI)
+#### 6. LET THE GAMES BEGIN (YOUR EFI)
 
 So the challenge starts now.
 
@@ -152,7 +154,7 @@ If your hardware is exactly mine you can use the files inside EFI/OC/ACPI. Other
 
 To do that follow the Getting started with ACPI guide provided by [khronokernel](khronokernel.github.io/Getting-Started-With-ACPI/)
 
-
+NOTE: Pay attention to this step because you can brick your machine with this...
 
 
 
