@@ -114,6 +114,13 @@ Steps to do it:
 
     1. mount your USB EFI partition
 
+        - unzip MountEFI.zip
+        - cd into MountEFI directory
+        - run ./MountEFI.command
+
+        choose your pen drive ![logo](./SCREENSHOTS/MountEFI001.png)
+
+
 
 
 
