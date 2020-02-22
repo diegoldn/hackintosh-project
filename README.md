@@ -6,6 +6,8 @@ This guide is a log of the steps I've taken to put my system running OSX Catalin
 
 DISCLAIMER: *Follow this guide at your own responsibilty. I'm not responsible for any damage  you commit to your hardware*
 
+If you try to just copy/paste the thing, you won't have any luck. First there are personal files that need to be created from your target hardware. Other is because each system has its own differences. So if you're trying to do this the fast way, my advise is to buy a new Mac from Apple.
+
 
 #### 1. HARDWARE
 
