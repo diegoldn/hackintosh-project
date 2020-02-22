@@ -127,6 +127,23 @@ Steps to do it:
 ![logo](/SCREENSHOTS/MountEFI002.png?raw=true "Mounted EFI")
 
 
+In your pen there won't be anything into the EFI partition. You'll find it empty.
+
+In the image below you can see an example how it will be after all the tweaking needed.
+
+#### 7. STANDARD EFI STRUCTURE
+
+The first step is to copy the standard EFI folder, provided in the open core package, to your EFI partition on the pen drive.
+
+In the /OPENCORE-0.5.5 of this repo unzip the OpenCore-0.5.5-RELEASE.zip file.
+
+![Standard EFI Folder](/SCREENSHOTS/StandardEFIFolder.png?raw=true "Standard EFI Folder")
+
+Just copy the complete folder, including the EFI parent partition into your EFI partition on the pen drive.
+
+
+
+
 
 #### 10. PREPARE YOUR BIOS FOR HACKINTOSH (GIGABTE AORUS MASTER)
 
