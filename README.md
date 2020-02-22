@@ -180,9 +180,12 @@ NOTE: I've removed my personal GenSMBIOS info from config.plist file.
 ![config.plist PlatformInfo](/SCREENSHOTS/PlatformInfo.png?raw=true "Platform Info")
 
 
-
-
 #### 10. PREPARE YOUR BIOS FOR HACKINTOSH (GIGABTE AORUS MASTER)
+
+    These are the tweaks I've made to my motherboard BIOS.
+
+    I expect soon to have a profile file here for you to do it without any struggle but for now just tweak it on your own:
+
 
     1. UPDATE BIOS TO THE LATEST ONE (in my case, F11 BIOS version)
 
@@ -220,3 +223,28 @@ NOTE: I've removed my personal GenSMBIOS info from config.plist file.
     POWER
 
     13. Platform Power Management: Disabled
+
+#### 11. LET'S BRICK IT OR OWN IT
+
+    At this point your pen drive and your system are ready to install macOS.
+
+    Boot from the UEFI pendrive option and install macOS as if it was an Apple Machine.
+
+    In the end you'll have to boot again from the Pendrive, this time selecting the macOS Installer option and continue with the install.
+
+    At the third boot, boot again from the Pendrive and you have your macOS boot entry to start the post-install tweaks on your system.
+
+    Test your system, check if it doesn't over heat, check if it seems graphically stable, install some programs, take a look around.
+
+    I wish you the best luck with this. :heart
+
+    For post install things check the POST INSTALL section of the [Opencore Vanilla Desktop Guide](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/)
+
+#### 12. WHAT'S NOT WORKING
+
+    1. Bluetooth works but not quite well (it recognizes devices but it's slow)
+    2. Wifi not working. Aorus Master integrated wifi network is not a good option for hackintosh at the time this guide was written.
+
+    NOTE: Peepz are solving the WiFi/Bluetooth problem with this card:
+
+[fenvi T919](https://amzn.to/2PgdCYC) around 90 euros.
