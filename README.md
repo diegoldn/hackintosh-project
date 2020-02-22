@@ -84,7 +84,7 @@ Create an USB with Catalina 10.15.3 install (done with macOS)
 
     2. Format your USB with
        - Name: Hackintosh
-       - Format: APFS
+        - Format: APFS
        - Scheme: GUID Partition Map
 
     3. Run the createinstallmedia command
@@ -131,15 +131,28 @@ In your pen there won't be anything into the EFI partition. You'll find it empty
 
 In the image below you can see an example how it will be after all the tweaking needed.
 
-#### 7. STANDARD EFI STRUCTURE
+#### 7. EFI FOLDER STRUCTURE
 
-The first step is to copy the standard EFI folder, provided in the open core package, to your EFI partition on the pen drive.
+The first step is to copy the EFI Folder that I've created with the help of the tutorials found on the AMD OSX Vanilla Guide.
 
-In the /OPENCORE-0.5.5 of this repo unzip the OpenCore-0.5.5-RELEASE.zip file.
+If your hardware is not similar to mine, please read the AMD OSX Vanilla Guide and check the reason of all the files and tweaks being there.
 
-![Standard EFI Folder](/SCREENSHOTS/StandardEFIFolder.png?raw=true "Standard EFI Folder")
+Tweak it according to your spec.
 
-Just copy the complete folder, including the EFI parent partition into your EFI partition on the pen drive.
+You can find my EFI in the repo's /EFI folder.
+
+![EFI Folder](/SCREENSHOTS/EFIFolder.png?raw=true "Prepared EFI Folder")
+
+Just copy my EFI prepared folder into your empty EFI partition (EFI parent folder included)
+
+
+#### 8. ACPI
+
+If your hardware is exactly mine you can use the files inside EFI/OC/ACPI. Otherwise you need to do your own files.
+
+To do that follow the Getting started with ACPI guide provided by [khronokernel](khronokernel.github.io/Getting-Started-With-ACPI/)
+
+
 
 
 
