@@ -50,11 +50,17 @@ List of the hardware I'm using:
 Things you'll need to download before starting:
 
 OpenCore-0.5.5
+
 GenSMBIOS
+
 MasciASL-1.5.7
+
 MountEFI
+
 ProperTree
+
 SSDTTime
+
 The Vanilla AMD config courtesy of AlGrei [The Vanilla AMD config courtesy of AlGrei](https://github.com/AMD-OSX/AMD_Vanilla)
 
 #### 4. INSTALLATION
