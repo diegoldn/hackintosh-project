@@ -117,8 +117,9 @@ Steps to do it:
         - unzip MountEFI.zip
         - cd into MountEFI directory
         - run ./MountEFI.command
+        - choose your pen drive
 
-        choose your pen drive ![logo](./SCREENSHOTS/MountEFI001.png)
+![logo](./SCREENSHOTS/MountEFI001.png)
 
 
 
