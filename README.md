@@ -119,7 +119,7 @@ Steps to do it:
         - run ./MountEFI.command
         - choose your pen drive
 
-![logo](https://github.com/evedes/hackintosh-project/SCREENSHOTS/MountEFI001.png)
+![logo][https://github.com/evedes/hackintosh-project/SCREENSHOTS/MountEFI001.png]
 
 
 
