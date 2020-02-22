@@ -6,7 +6,7 @@ This guide is a log of the steps I've taken to put my system running OSX Catalin
 
 DISCLAIMER: *Follow this guide at your own responsibilty. I'm not responsible for any damage  you commit to your hardware*
 
-If you try to just copy/paste the thing, you won't have any luck. First there are personal files that need to be created from your target hardware. Other is because each system has its own differences. So if you're trying to do this the fast way, my advice to you is just buy a new Mac from Apple.
+If you try to just copy/paste the thing, you won't have any luck. On one hand there are personal files that need to be created from your target hardware. On the other hand each system has its own differences. So if you're trying to do this the fast way, my advice to you is just buy a new Mac from Apple.
 
 I've followed the AMD OS X Vanilla Guide [here](https://vanilla.amd-osx.com)
 
@@ -33,7 +33,6 @@ List of the hardware I'm using:
     - Razer Kiyo FHD Webcam
     - Mouse Logitech G-903
     - Keyboard Ducky MECHA MINI 60%
-
 #### 2. THINGS YOU'LL NEED
 
     - PEN DRIVE 16GB
