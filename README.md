@@ -33,6 +33,7 @@ List of the hardware I'm using:
     - Razer Kiyo FHD Webcam
     - Mouse Logitech G-903
     - Keyboard Ducky MECHA MINI 60%
+
 #### 2. THINGS YOU'LL NEED
 
     - PEN DRIVE 16GB
@@ -55,13 +56,9 @@ Things you'll need to download before starting:
     - ProperTree
     - SSDTTime
 
-The Vanilla AMD config courtesy of AlGrei [The Vanilla AMD config courtesy of AlGrei](https://github.com/AMD-OSX/AMD_Vanilla)
-
 #### 4. INSTALLATION
 
-    macOS
-
-    Create an USB with Catalina 10.15.3 install
+    Create an USB with Catalina 10.15.3 install (done with macOS)
 
     1. Download Catalina from App Store
 
@@ -70,179 +67,58 @@ The Vanilla AMD config courtesy of AlGrei [The Vanilla AMD config courtesy of Al
        - Format: APFS
        - Scheme: GUID Partition Map
 
-    3. Run  the createinstallmedia command
+    3. Run the createinstallmedia command
 
     ```
         sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/Hackintosh
     ```
 
-    This will take some time but in the end you'll have a normal Catalina USB installer.
+    This will take some time but in the end you'll have a simple Catalina USB installer.
 
     Nothing new till now.
 
 
+#### 5. KEXTs (Kernel Extensions)
 
-#### 4. CREATING MACOS INSTALL USB AND BOOTLOADER SETUP
 
-    1. Run MakeInstall as Admin from within the gibMacOS folder.
-
-    2. Select your USB drive number. If you choose to use OpenCore add an O to the number: i.e. 4O
-    I've chosen OpenCore as it is advised from OSX 10.15.2 onwards.
-
-#### 5. KEXT
 
 
 #### 10. PREPARE YOUR BIOS FOR HACKINTOSH (GIGABTE AORUS MASTER)
 
 
-    1. UPDATE BIOS TO THE LATEST ONE (not always the best, but in most cases it is...)
+    1. UPDATE BIOS TO THE LATEST ONE (in my case, F11 BIOS version)
 
     2. LOAD OPTIMIZED DEFAULT
 
-    OC Features
-
-    3. EXTREME MEMORY PROFILE (X.M.P): set it to Profile 1
 
     BIOS
 
     4. FAST BOOT: disabled
 
-    5. Windows 8/10 Features: set to Windows 8/10
+    5. CSM Support: disabled
 
-    6. CSM Support: Enabled, if you have problems disable it
+    6. LAN PXE Boot Option ROM: set to disabled
 
-    7. LAN PXE Boot Option ROM: set to disabled
+    7. Storage Boot Option Control: UEFI
 
-    8. Storage Boot Option Control: UEFI
-
-    9. Other PCI Devices: UEFI
+    8. Other PCI Devices: UEFI
 
     PERIPHERALS
 
-    10. PCIe 1 Slot
+    9. Security Device Support: Disabled
 
-    11. Security Device Support: Disabled
+    10. USB Configuration
 
-    12. USB Configuration
-
-        - XHCI Hando-off: Enabled
+        - XHCI Hand-off: Enabled
 
         - Legacy USB Support: Enabled
 
-    13. Network Stack: Disabled
-
-    14. SATA Mode: AHCI
+    11. Network Stack: Disabled
 
     CHIPSET
 
-    15. VT-d: Enabled
-
-    16. Internal Graphics: Enabled (even if you have dedicated GPU)
-
-    17. IOAPIC 24-119 Entries: Enabled
+    12. VT-d: Enabled
 
     POWER
 
-    18. Platform Power Management: Disabled
-
-
-#### 15. LINK SECTION
-
-[The Vanilla AMD config courtesy of AlGrei (check the link section)
-
-
-        - A USB Drive (16GB)
-        - Some patience... lots of it... more of it...
-
-        Keep calm, with this quick guide you'll do it almost without a struggle :heart
-
-#### 3. INSTALLATION
-
-    macOS
-
-    Create an USB with Catalina 10.15.3 install
-
-    1. Download Catalina from App Store
-
-    2. Format your USB with
-       - Name: Hackintosh
-       - Format: APFS
-       - Scheme: GUID Partition Map
-
-    3. Run  the createinstallmedia command
-
-    ```
-        sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/Hackintosh
-    ```
-
-    This will take some time but in the end you'll have a normal Catalina USB installer.
-
-    Nothing new till now.
-
-
-
-#### 4. CREATING MACOS INSTALL USB AND BOOTLOADER SETUP
-
-    1. Run MakeInstall as Admin from within the gibMacOS folder.
-
-    2. Select your USB drive number. If you choose to use OpenCore add an O to the number: i.e. 4O
-    I've chosen OpenCore as it is advised from OSX 10.15.2 onwards.
-
-#### 5. KEXT
-
-
-#### 10. PREPARE YOUR BIOS FOR HACKINTOSH (GIGABTE AORUS MASTER)
-
-
-    1. UPDATE BIOS TO THE LATEST ONE (not always the best, but in most cases it is...)
-
-    2. LOAD OPTIMIZED DEFAULT
-
-    OC Features
-
-    3. EXTREME MEMORY PROFILE (X.M.P): set it to Profile 1
-
-    BIOS
-
-    4. FAST BOOT: disabled
-
-    5. Windows 8/10 Features: set to Windows 8/10
-
-    6. CSM Support: Enabled, if you have problems disable it
-
-    7. LAN PXE Boot Option ROM: set to disabled
-
-    8. Storage Boot Option Control: UEFI
-
-    9. Other PCI Devices: UEFI
-
-    PERIPHERALS
-
-    10. PCIe 1 Slot
-
-    11. Security Device Support: Disabled
-
-    12. USB Configuration
-
-        - XHCI Hando-off: Enabled
-
-        - Legacy USB Support: Enabled
-
-    13. Network Stack: Disabled
-
-    14. SATA Mode: AHCI
-
-    CHIPSET
-
-    15. VT-d: Enabled
-
-    16. Internal Graphics: Enabled (even if you have dedicated GPU)
-
-    17. IOAPIC 24-119 Entries: Enabled
-
-    POWER
-
-    18. Platform Power Management: Disabled
-
-
-#### 15. LINK SECTION
+    13. Platform Power Management: Disabled
