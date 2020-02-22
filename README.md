@@ -58,7 +58,7 @@ Things you'll need to download before starting:
 
 #### 4. INSTALLATION
 
-    Create an USB with Catalina 10.15.3 install (done with macOS)
+Create an USB with Catalina 10.15.3 install (done with macOS)
 
     1. Download Catalina from App Store
 
