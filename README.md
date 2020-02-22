@@ -69,13 +69,14 @@ Create an USB with Catalina 10.15.3 install (done with macOS)
 
     3. Run the createinstallmedia command
 
-    ```
-        sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/Hackintosh
-    ```
 
-    This will take some time but in the end you'll have a simple Catalina USB installer.
+    sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/Hackintosh
 
-    Nothing new till now.
+
+
+This will take some time but in the end you'll have a simple Catalina USB installer.
+
+Nothing new till now.
 
 
 #### 5. KEXTs (Kernel Extensions)
