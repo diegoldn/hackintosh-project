@@ -119,7 +119,7 @@ Steps to do it:
         - run ./MountEFI.command
         - choose your pen drive
 
-![logo](./SCREENSHOTS/MountEFI001.png)
+![logo](/SCREENSHOTS/MountEFI001.png?raw=true "Mount EFI 001")
 
 
 
