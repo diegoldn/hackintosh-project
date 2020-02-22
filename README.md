@@ -1,5 +1,9 @@
 ## EDO'S HACKINTOSH PROJECT
 
+![about image](/SCREENSHOTS/about.png?raw=true "System About Image")
+
+
+
 #### 0. INTRO
 
 This guide is a log of the steps I've taken to put my system running OSX Catalina 10.15.3.
