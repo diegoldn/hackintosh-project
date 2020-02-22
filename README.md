@@ -8,10 +8,18 @@ DISCLAIMER: *Follow this guide at your own responsibilty. I'm not responsible fo
 
 If you try to just copy/paste the thing, you won't have any luck. First there are personal files that need to be created from your target hardware. Other is because each system has its own differences. So if you're trying to do this the fast way, my advice to you is just buy a new Mac from Apple.
 
+I've followed the AMD OS X Vanilla Guide [here](https://vanilla.amd-osx.com)
+
+I have no credits for this, besides this document that can help you a lot if your hardware is same as mine.
+
+All credits to the guys at AMD OS X Vanilla Guide :heart
+
+So the purpose here is to create an hackintosh from Catalina 10.15.3 with OpenCore bootloader.
+
 
 #### 1. HARDWARE
 
-    List of the hardware I'm using:
+List of the hardware I'm using:
 
     - Case Extended ATX NZXT Ht700i w/Black Window
     - Power Supply: NZXT E650 Digital 650W 80 PLUS Gold Full Modular Black
@@ -31,18 +39,13 @@ If you try to just copy/paste the thing, you won't have any luck. First there ar
     - PEN DRIVE 16GB
     - XCode installed
     - A macOS Catalina 10.15.3 install (Install macOS Catalina.app)
-        ####### NOTE: download it directly from the App Store using your own account
+        NOTE: download it directly from the App Store using your own account
+    - iCloud account (usually people already have one)
+    - lots of patience
+    - lots of google-fu
 
 
-
-
-
-#### 2. GATHERING RESOURCES
-
-    I've followed the AMD OS X Vanilla Guide [here](https://vanilla.amd-osx.com)
-
-    NOTE: You'll need an iCloud account to be able to configure your mac.
-    Usually people already have something from Apple so this won't be a problem for almost everyone.
+#### 3. GATHERING RESOURCES
 
     Things you'll need to download before starting:
         - OpenCore-0.5.5
@@ -51,7 +54,11 @@ If you try to just copy/paste the thing, you won't have any luck. First there ar
         - MountEFI
         - ProperTree
         - SSDTTime
-        - The Vanilla AMD config courtesy of AlGrey [LINK](https://github.com/AMD-OSX/AMD_Vanilla)
+        - The Vanilla AMD config courtesy of AlGrei
+
+        [LINK](https://github.com/AMD-OSX/AMD_Vanilla)
+
+
         - A USB Drive (16GB)
         - Some patience... lots of it... more of it...
 
