@@ -122,6 +122,9 @@ Steps to do it:
 ![logo](/SCREENSHOTS/MountEFI001.png?raw=true "Mount EFI")
 
 
+        - at this point you can close MountEFI with CMD+Q, you should already have EFI partition mounted in your finder
+
+![logo](/SCREENSHOTS/MountEFI002.png?raw=true "Mounted EFI")
 
 
 
