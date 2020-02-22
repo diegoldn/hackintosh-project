@@ -37,7 +37,7 @@ List of the hardware I'm using:
 #### 2. THINGS YOU'LL NEED
 
     - PEN DRIVE 16GB
-    - XCode installed
+    - XCode installed (in order to edif *.plist files)
     - A macOS Catalina 10.15.3 install (Install macOS Catalina.app)
         NOTE: download it directly from the App Store using your own account
     - iCloud account (usually people already have one)
@@ -56,7 +56,27 @@ Things you'll need to download before starting:
     - ProperTree
     - SSDTTime
 
-#### 4. INSTALLATION
+    You can find it inside the RESOURCES folder of this repo.
+
+
+#### 4. KEXTs (Kernel Extensions)
+
+    - Lilu.kext
+    - VirtualSMC.kext
+    - WhateverGreen.kext
+    - AppleALC.kext
+    - NVMeFix.kext
+    - SmallTreeIntel82576.kext
+    - AppleMCEReporterDisabler.kext
+    - BrcmBluetoothInjector.kext
+    - BrcmFirmwareData.kext
+    - BrcmPatchRAM3.kext
+    - AirportBrcmFixup.kext
+
+    You can find it in the KEXTS folder of this repo.
+
+
+#### 5. INSTALLATION
 
 Create an USB with Catalina 10.15.3 install (done with macOS)
 
@@ -79,13 +99,23 @@ This will take some time but in the end you'll have a simple Catalina USB instal
 Nothing new till now.
 
 
-#### 5. KEXTs (Kernel Extensions)
+#### 6. LET THE GAMES BEGIN (YOUR SAMPLE EFI)
+
+So the challenge starts now.
+
+You need to mount your USB EFI partition using the MountEFI tool and copy there the OpenCore EFI Folder (EFI folder included)
+
+    - You'll find MountEFI in this repo's TOOLS folder
+    - You'll find OpenCore-0.5.5-RELEASE.ZIP in this repo's OPENCORE-0.5.5 folder
+
+Steps to do it:
+
+    1. mount your USB EFI partition
 
 
 
 
 #### 10. PREPARE YOUR BIOS FOR HACKINTOSH (GIGABTE AORUS MASTER)
-
 
     1. UPDATE BIOS TO THE LATEST ONE (in my case, F11 BIOS version)
 
