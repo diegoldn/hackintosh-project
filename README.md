@@ -2,13 +2,11 @@
 
 ![about image](/SCREENSHOTS/about.png?raw=true "System About Image")
 
-
-
 #### 0. INTRO
 
 This guide is a log of the steps I've taken to put my system running OSX Catalina 10.15.3.
 
-DISCLAIMER: *Follow this guide at your own responsibilty. I'm not responsible for any damage  you commit to your hardware*
+DISCLAIMER: _Follow this guide at your own responsibilty. I'm not responsible for any damage you commit to your hardware_
 
 If you try to just copy/paste the thing, you won't have any luck. On one hand there are personal files that need to be created from your target hardware. On the other hand each system has its own differences. So if you're trying to do this the fast way, my advice to you is just buy a new Mac from Apple.
 
@@ -19,7 +17,6 @@ I have no credits for this, besides this document that can help you a lot if you
 All credits to the guys at AMD OS X Vanilla Guide :heart
 
 So the purpose here is to create an hackintosh from Catalina 10.15.3 with OpenCore bootloader.
-
 
 #### 1. HARDWARE
 
@@ -48,7 +45,6 @@ List of the hardware I'm using:
     - lots of patience
     - lots of google-fu
 
-
 #### 3. GATHERING RESOURCES
 
 Things you'll need to download before starting:
@@ -61,7 +57,6 @@ Things you'll need to download before starting:
     - SSDTTime
 
 You can find it inside the RESOURCES folder of this repo.
-
 
 #### 4. KEXTs (Kernel Extensions)
 
@@ -81,7 +76,6 @@ You can find it in the KEXTS folder of this repo.
 
 If you hardware is not exactly like mine please read the guide mentioned above in the section related to [Gathering Files](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/ktext)
 
-
 #### 5. CREATE AN INSTALL USB PEN DRIVE
 
 Create an USB with Catalina 10.15.3 install (done with macOS)
@@ -98,12 +92,9 @@ Create an USB with Catalina 10.15.3 install (done with macOS)
 
     sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/Hackintosh
 
-
-
 This will take some time but in the end you'll have a simple Catalina USB installer.
 
 Nothing new till now.
-
 
 #### 6. LET THE GAMES BEGIN (YOUR EFI)
 
@@ -127,15 +118,13 @@ Steps to do it:
 
 ![logo](/SCREENSHOTS/MountEFI001.png?raw=true "Mount EFI")
 
-
         - at this point you can close MountEFI with CMD+Q, you should already have EFI partition mounted in your finder
 
 ![logo](/SCREENSHOTS/MountEFI002.png?raw=true "Mounted EFI")
 
-
 In your pen there won't be anything into the EFI partition. You'll find it empty.
 
-In the image below you can see an example how it will be after all the tweaking needed.
+In the image above you can see an example how it will be after all the tweaking needed.
 
 #### 7. EFI FOLDER STRUCTURE
 
@@ -151,7 +140,6 @@ You can find my EFI in the repo's /EFI folder.
 
 Just copy my EFI prepared folder into your empty EFI partition (EFI parent folder included)
 
-
 #### 8. ACPI
 
 If your hardware is exactly mine you can use the files inside EFI/OC/ACPI. Otherwise you need to do your own files.
@@ -165,7 +153,6 @@ If you need to create your specific ACIP files you'll find the SSDTime helper in
 Just unzip it in the target machine desktop (the one where you intend to install your macOS) and run it in a Windows installation, executing the SSDTime.bat as admin.
 
 You can also run it on linux. More info on that in the last link provided. Just read it carefully and in doubt check other EFI folders or ask in reddit/forums about it.
-
 
 #### 9. config.plist
 
@@ -182,7 +169,6 @@ With the fake data you get from GenSMBIOS you should open config.plist and fulfi
 NOTE: I've removed my personal GenSMBIOS info from config.plist file.
 
 ![config.plist PlatformInfo](/SCREENSHOTS/PlatformInfo.png?raw=true "Platform Info")
-
 
 #### 10. PREPARE YOUR BIOS FOR HACKINTOSH (GIGABTE AORUS MASTER)
 
