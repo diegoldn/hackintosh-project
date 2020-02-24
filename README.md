@@ -148,7 +148,7 @@ To do that follow the Getting started with ACPI guide provided by [Opencore Vani
 
 NOTE: Pay attention to this step because you can brick your machine with this...
 
-If you need to create your specific ACIP files you'll find the SSDTime helper inside my Tools Folder.
+If you need to create your specific ACPI files you'll find the SSDTime helper inside my Tools Folder.
 
 Just unzip it in the target machine desktop (the one where you intend to install your macOS) and run it in a Windows installation, executing the SSDTime.bat as admin.
 
