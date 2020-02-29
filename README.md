@@ -20,9 +20,9 @@ So the purpose here is to create an hackintosh from Catalina 10.15.3 with OpenCo
 
 **TL;DR Benchmarks**
 
-[Geekbench 5 CPU](/SCREENSHOTS/Geekbench_5_CPU.png) : scores are okay according to Benchmarks Charts (expected)
+[Geekbench 5 CPU](/BENCHMARKS/Geekbench_5_CPU.png) : scores are okay according to Benchmarks Charts (expected)
 
-[Geekbench 5 Compute OpenCL/Metal](/SCREENSHOTS/Geekbench_5_Compute.png) : scores are okay according to Benchmarks Charts, altough some Radeon RX 5700 XT behave way up above the average values
+[Geekbench 5 Compute OpenCL/Metal](/BENCHMARKS/Geekbench_5_Compute.png) : scores are okay according to Benchmarks Charts, altough some Radeon RX 5700 XT behave way up above the average values
 
 
 
