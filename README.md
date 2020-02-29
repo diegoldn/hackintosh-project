@@ -201,15 +201,15 @@ NOTE: I've removed my personal GenSMBIOS info from config.plist file.
 
 #### 10. PREPARE YOUR BIOS FOR HACKINTOSH (GIGABTE AORUS MASTER)
 
-    These are the tweaks I've made to my motherboard BIOS.
+These are the tweaks I've made to my motherboard BIOS.
 
-    ** TL;DR If you have a Gigabyte Aorus Master X570 Mobo just do this flash BIOS to F11 version and use the profile I've prepared that's available in this repo **
+** TL;DR If you have a Gigabyte Aorus Master X570 Mobo just do this flash BIOS to F11 version and use the profile I've prepared that's available in this repo **
 
-    [BIOS FIRMWARE F11](/BIOS_FIRMWARE_UPDATE/mb_bios_x570-aorus-master_f11.zip)
+[BIOS FIRMWARE F11](/BIOS_FIRMWARE_UPDATE/mb_bios_x570-aorus-master_f11.zip)
 
-    [Aorus Master X570 Saved Profile](/BIOS_PROFILE/MB_SETTINGS_PROFILE)
+[Aorus Master X570 Saved Profile](/BIOS_PROFILE/MB_SETTINGS_PROFILE)
 
-    NOTE: this file already contains all the BIOS tweaks needed to run your hackintosh without problems.
+ NOTE: this file already contains all the BIOS tweaks needed to run your hackintosh without problems.
 
     Tweaks made:
 
