@@ -24,7 +24,22 @@ So the purpose here is to create an hackintosh from Catalina 10.15.3 with OpenCo
 
 [Geekbench 5 Compute OpenCL/Metal](/BENCHMARKS/Geekbench_5_Compute.png) : scores are okay according to Benchmarks Charts, altough some Radeon RX 5700 XT behave way up above the average values
 
+**TL;DR What Works**
 
+    - icloud
+    - location services
+    - airdrop
+    - bluetooth (w/fenvi t919)
+    - wifi (w/fenvi t919)
+    - sleep
+    - sound
+    - video conference (webcam, sound, screen sharing)
+
+    - need to try sidecar
+
+**TL;DR Shenaningans**
+
+    Random system stuttering/lag from time to time. It's rare but it happens. For 1-3 secs everything stops and then gets back to normality.
 
 #### 1. HARDWARE
 
@@ -244,10 +259,20 @@ For post install things check the POST INSTALL section of the [Opencore Vanilla 
 
 2. Wifi not working. Aorus Master integrated wifi network is not a good option for hackintosh at the time this guide was written.
 
+3. Random rare 1-3 sec. stuttering (not sure why, but system is okay). Trying to solve this.
+
+**If you know anything about it please get in touch!**
+
 NOTE: Peepz are solving the WiFi/Bluetooth problem with this card:
 
-[fenvi T919](https://amzn.to/2PgdCYC) around 90 euros.
+[fenvi T919](https://amzn.to/2PgdCYC) -> costs around 90 euros.
 
-#### 13. Bought a fenvi T919 and bluetooth/wifi are working flawlessly
+29th Feb 2020 UPDATE:
 
-Location services, airdrop, multiple bluetooth devies, wifi working as expected in a real mac.
+bought the fenvi t919 pci express card and everything works smoothly like in a real mac:
+
+    - location services
+    - airdrop
+    - multiple bluetooth devices
+    - wifi
+    - sidecar (not able to try it till now)
