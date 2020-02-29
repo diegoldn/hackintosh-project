@@ -18,6 +18,14 @@ All credits to the guys at AMD OS X Vanilla Guide :heart
 
 So the purpose here is to create an hackintosh from Catalina 10.15.3 with OpenCore bootloader.
 
+**TL;DR Benchmarks**
+
+[Geekbench 5 CPU](/SCREENSHOTS/Geekbench_5_CPU.png) : scores are okay according to Benchmarks Charts (expected)
+
+[Geekbench 5 Compute OpenCL/Metal](/SCREENSHOTS/Geekbench_5_Compute.png) : scores are okay according to Benchmarks Charts, altough some Radeon RX 5700 XT behave way up above the average values
+
+
+
 #### 1. HARDWARE
 
 List of the hardware I'm using:
@@ -230,7 +238,7 @@ I wish you the best luck with this. :heart
 
 For post install things check the POST INSTALL section of the [Opencore Vanilla Desktop Guide](https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/)
 
-#### 12. WHAT'S NOT WORKING
+#### 12. SHENANIGANS
 
 1. Bluetooth works but not quite well (it recognizes devices but it's slow)
 
@@ -239,3 +247,7 @@ For post install things check the POST INSTALL section of the [Opencore Vanilla 
 NOTE: Peepz are solving the WiFi/Bluetooth problem with this card:
 
 [fenvi T919](https://amzn.to/2PgdCYC) around 90 euros.
+
+#### 13. Bought a fenvi T919 and bluetooth/wifi are working flawlessly
+
+Location services, airdrop, multiple bluetooth devies, wifi working as expected in a real mac.
