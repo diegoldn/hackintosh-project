@@ -43,6 +43,14 @@ So the purpose here is to create an hackintosh from Catalina 10.15.3 with OpenCo
 
     2. Ducky Mecha Mini USB Keyboard sometimes blocks and only one RGB line is lit. After reading a bit this is Ducky's problem and can be solved with firmware. To get it back to life I just unplug/plug the cable and everything goes fine for hours.
 
+    UPDATE 29th Feb: to solve the ducky mecha mini issue follow these steps:
+        1. press Fn + Alt + P for 3 sec.
+        2. keyboard lit scheme will change
+        3. type 05AC024F (changes the VID and PID which Apple authorised)
+        4. restart the keyboard by unplug and plug
+
+        (after 24h of testing I'm assuming this problem is solved)
+
     3. Although VT-D is enabled in BIOS, OSX doesn't recognizes it.
 
     NOTE: Parallels and VirtualBox work but Docker Desktop not. So if you're a Docker user prepare to use Docker Machine.
