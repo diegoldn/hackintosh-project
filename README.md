@@ -203,7 +203,7 @@ NOTE: I've removed my personal GenSMBIOS info from config.plist file.
 
 These are the tweaks I've made to my motherboard BIOS.
 
-** TL;DR If you have a Gigabyte Aorus Master X570 Mobo just do this flash BIOS to F11 version and use the profile I've prepared that's available in this repo **
+**TL;DR If you have a Gigabyte Aorus Master X570 Mobo just do this flash BIOS to F11 version and use the profile I've prepared that's available in this repo**
 
 [BIOS FIRMWARE F11](/BIOS_FIRMWARE_UPDATE/mb_bios_x570-aorus-master_f11.zip)
 
