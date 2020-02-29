@@ -39,7 +39,11 @@ So the purpose here is to create an hackintosh from Catalina 10.15.3 with OpenCo
 
 **TL;DR Shenaningans**
 
-    Random system stuttering/lag from time to time. It's rare but it happens. For 1-3 secs everything stops and then gets back to normality.
+    1. Random system stuttering/lag from time to time. It's rare but it happens. For 1-3 secs everything stops and then gets back to normality.
+
+    2. Although VT-D is enabled in BIOS, OSX doesn't recognizes it.
+
+    NOTE: Parallels and VirtualBox work but Docker Desktop not. So if you're a Docker user prepare to use Docker Machine.
 
 #### 1. HARDWARE
 
