@@ -39,9 +39,9 @@ So the purpose here is to create an hackintosh from Catalina 10.15.3 with OpenCo
 
 **TL;DR Shenaningans**
 
-    1. Random system stuttering/lag from time to time. It's rare but it happens. For 1-3 secs everything stops and then gets back to normality.
+    1. [NOT SOLVED YET] Random system stuttering/lag from time to time. It's rare but it happens. For 1-3 secs everything stops and then gets back to normality.
 
-    2. Ducky Mecha Mini USB Keyboard sometimes blocks and only one RGB line is lit. After reading a bit this is Ducky's problem and can be solved with firmware. To get it back to life I just unplug/plug the cable and everything goes fine for hours.
+    2. [SOLVED] Ducky Mecha Mini USB Keyboard sometimes blocks and only one RGB line is lit. After reading a bit this is Ducky's problem and can be solved with firmware. To get it back to life I just unplug/plug the cable and everything goes fine for hours.
 
     UPDATE 29th Feb: to solve the ducky mecha mini issue follow these steps:
         1. press Fn + Alt + P for 3 sec.
@@ -51,7 +51,7 @@ So the purpose here is to create an hackintosh from Catalina 10.15.3 with OpenCo
 
         (after 24h of testing I'm assuming this problem is solved)
 
-    3. Although VT-D is enabled in BIOS, OSX doesn't recognizes it.
+    3. [HAVE TO LIVE WITH] Although VT-D is enabled in BIOS, OSX doesn't recognizes it.
 
     NOTE: Parallels and VirtualBox work but Docker Desktop not. So if you're a Docker user prepare to use Docker Machine.
 
@@ -67,6 +67,7 @@ List of the hardware I'm using:
     - RAM GSkill Trident Z RGB (for AMD) 4x16GB DDR-4-3200MHz CL16 Black
     - Graphics Card RADEON RX5700 XT 8GB
     - 2x SSD M.2 2280 Samsung 970 Evo Plus 500GB
+    - fenvi t919 (wifi + bluetooth PCIExpr Card), -> bought specifically to solve BT+WiFi problem
     - Razer Seiren X Condenser Streaming Microphone
     - Razer Kiyo FHD Webcam
     - Mouse Logitech G-903
@@ -217,7 +218,7 @@ These are the tweaks I've made to my motherboard BIOS.
 
 [Aorus Master X570 Saved Profile](/BIOS_PROFILE/MB_SETTINGS_PROFILE)
 
- NOTE: this file already contains all the BIOS tweaks needed to run your hackintosh without problems.
+NOTE: this file already contains all the BIOS tweaks needed to run your hackintosh without problems.
 
     Tweaks made:
 
@@ -276,24 +277,6 @@ For post install things check the POST INSTALL section of the [Opencore Vanilla 
 
 #### 12. SHENANIGANS
 
-1. Bluetooth works but not quite well (it recognizes devices but it's slow)
-
-2. Wifi not working. Aorus Master integrated wifi network is not a good option for hackintosh at the time this guide was written.
-
-3. Random rare 1-3 sec. stuttering (not sure why, but system is okay). Trying to solve this.
+1. Random rare 1-3 sec. stuttering (not sure why, but system is okay). Trying to solve this.
 
 **If you know anything about it please get in touch!**
-
-NOTE: Peepz are solving the WiFi/Bluetooth problem with this card:
-
-[fenvi T919](https://amzn.to/2PgdCYC) -> costs around 90 euros.
-
-29th Feb 2020 UPDATE:
-
-bought the fenvi t919 pci express card and everything works smoothly like in a real mac:
-
-    - location services
-    - airdrop
-    - multiple bluetooth devices
-    - wifi
-    - sidecar (not able to try it till now)
