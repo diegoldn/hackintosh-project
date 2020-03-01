@@ -27,6 +27,7 @@ So the purpose here is to create an hackintosh from Catalina 10.15.3 with OpenCo
 **TL;DR What Works**
 
     - icloud
+    - time machine
     - location services
     - airdrop
     - bluetooth (w/fenvi t919)
