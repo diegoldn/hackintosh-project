@@ -123,7 +123,7 @@ Create an USB with Catalina 10.15.3 install (done with macOS)
 
     2. Format your USB with
        - Name: Hackintosh
-        - Format: APFS
+        - Format: Mac OS Extended(journaled)
        - Scheme: GUID Partition Map
 
     3. Run the createinstallmedia command
